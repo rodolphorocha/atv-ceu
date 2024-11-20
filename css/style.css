@@ -72,3 +72,19 @@ section.experience div.info a.view{
 section.experience div.homemSentado {
     margin: 0 0 0 6vw;
 }
+section.applications div.all ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 3vw 2vw 3vw;
+}
+section.applications div.web {
+    background-color: #EFEAFF;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+section.applications div.seo {
+    background-color: #EFEAFF;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+section.applications div.seo
