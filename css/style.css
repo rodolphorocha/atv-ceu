@@ -40,7 +40,7 @@ header nav ul li span.contact a{
 /////////////////////////////////////////////////////////*/
 section.experience {
     display: flex;
-    background: linear-gradient(rgba(16, 144, 203, 0.1), rgba(16, 144, 203, 0.1)), no-repeat center center;
+    background: linear-gradient(rgba(16, 144, 203, 0.1), rgba(16, 144, 203, 0.1));
 }
 section.experience div.info h1{
     font-weight: 500;
@@ -77,14 +77,71 @@ section.applications div.all ul{
     justify-content: space-between;
     margin: 2vw 3vw 2vw 3vw;
 }
-section.applications div.web {
+section.applications ul li {
+    display: flex;
+    
+}
+section.applications ul li div p {
+    color: gray;
+}
+section.applications div.web-img {
     background-color: #EFEAFF;
     padding: 20px 20px 10px 20px;
     border-radius: 20px;
+} 
+section.applications div.web-text{
+    margin: 20px 20px 20px 20px;
 }
-section.applications div.seo {
-    background-color: #EFEAFF;
+section.applications div.seo-img{
+    background-color: #ECFFDA;
     padding: 20px 20px 10px 20px;
     border-radius: 20px;
 }
-section.applications div.seo
+section.applications div.seo-text{
+    margin: 20px 20px 20px 20px;
+}
+section.applications div.vr-img {
+    background-color: #DAE6FF;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+section.applications div.vr-text{
+    margin: 20px 20px 20px 20px;
+}
+section.applications div.mobile-img {
+    background-color: #FFE5DA;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+}
+section.applications {
+    border-bottom: 1px solid gray;
+}
+section.applications div.mobile-text{
+    margin: 20px 20px 20px 20px;
+}
+section.demonstracao h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 8vw 0 4vw 0;
+}
+section.demonstracao p.sem-div {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    
+}
+section.demonstracao h3 span {
+    color: #1090CB;
+}
+
+section.demonstracao p {
+    color: gray;
+}
+section.demonstracao div.all-demonstracao {
+    display: flex;
+}
+section.demonstracao div.simply-text h3{
+
+}
